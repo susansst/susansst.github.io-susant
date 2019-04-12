@@ -7,6 +7,8 @@
 
 body {
 	padding-right: 10%;
+	width: 100%;
+	margin: auto;
 }
 
 .container {
@@ -15,14 +17,51 @@ body {
 	display: flex;
 }
 
+h1, h2, a {
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	color: #173F4D;
+}
+
+.column h2 {
+	font-size: 14px;
+	line-height: 0.5;
+}
+
+.column p {
+	font-family: 'Overpass', sans-serif;
+	font-size: 12px;
+	color: #173F4D;
+}
+
+.content p {
+	font-style: italic;
+	line-height: 0;
+}
+
 header {
 	background-color: #E0E0E0;
 	width: 25%;
 	margin-right: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header h1 img {
+	width: 100%;
+}
+
+.links a {
+	text-align: top;
 }
 
 ul {
 	list-style: none;
+	margin: 0 25%;
+	padding: 0;
+	line-height: 2;
 }
 
 .social {
@@ -43,12 +82,12 @@ ul {
 }
 
 .row {
-  margin: 0px -50px;
+  margin: 0px -20px;
 }
 
 .row,
 .row > .column {
-  padding: 5px;
+  padding: 8px;
 }
 
 .column {
@@ -62,8 +101,17 @@ ul {
   clear: both;
 }
 
-.content a:hover {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+a:link {
+	color: #173F4D;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFD394;
+}
+
+.content a:hover img {
+	box-shadow: 4px 4px 8px grey;
 }
 
 @media screen and (max-width: 900px) {
