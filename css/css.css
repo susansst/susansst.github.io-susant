@@ -6,15 +6,17 @@
 }
 
 body {
-	padding-right: 10%;
 	width: 100%;
-	margin: auto;
+	margin: 0;
+	padding: 0;
+	background-color: #F8F8F8;
 }
 
 .container {
 	margin: 0 auto;
-	max-width: 100%;
+	width: 100%;
 	display: flex;
+	min-height: 100vh;
 }
 
 h1, h2, a {
@@ -41,12 +43,12 @@ h1, h2, a {
 
 header {
 	background-color: #E0E0E0;
-	width: 25%;
-	margin-right: 10%;
+	width: 20%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0;
 }
 
 header h1 img {
@@ -71,6 +73,7 @@ ul {
 
 .social-link img {
 	width: 25px;
+	margin-bottom: 20px;
 }
 
 .social-link a:link {
@@ -82,12 +85,17 @@ ul {
 }
 
 .row {
-  margin: 0px -20px;
+	margin: 0px -20px;
+	max-width: 100%;
 }
 
 .row,
 .row > .column {
   padding: 8px;
+}
+
+.image-grid {
+	margin: 4% 4% 2% 8%;
 }
 
 .column {
@@ -108,10 +116,6 @@ a:link {
 
 a:hover {
 	color: #FFD394;
-}
-
-.content a:hover img {
-	box-shadow: 4px 4px 8px grey;
 }
 
 @media screen and (max-width: 900px) {
@@ -143,7 +147,5 @@ a:hover {
 	.image-grid {
 		margin-top: 100px;
 	}
-	
-	
 	
 }
