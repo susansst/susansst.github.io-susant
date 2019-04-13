@@ -119,6 +119,16 @@ a:link {
 a:hover {
 	color: #F19874;
 }
+ /* about */
+
+.about-me {
+	width: 100%;
+	padding: 4% 25%
+}
+
+.about p {
+	font-family: 'Overpass', sans-serif;
+}
 
 /* Florence */
 
