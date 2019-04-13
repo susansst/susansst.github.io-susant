@@ -194,7 +194,7 @@ a:hover {
 .description {
 	diplay: block;
 	width: 40%;
-	margin: 15% 35%;
+	margin: 15% 29%;
 	text-align: center;
 }
 
@@ -365,6 +365,5 @@ footer {
 	
 	.image-grid {
 		margin-top: 100px;
-	}
-	
+	}	
 }
