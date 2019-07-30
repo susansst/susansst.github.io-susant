@@ -5,63 +5,111 @@
 <title>Florence Nightingale</title>
 <link href="css/css.css" rel="stylesheet" type="text/css" media="screen">
 <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Overpass" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/420c43f12a.js"></script>
 </head>
 
 <body>
-	<div class="container-projects">
-		
-		<div class="horizontal-nav">
-			<h1><a href="index.html"><img src="images/personal-logo-32.png" width="100%" alt="Susan Thai"></a></h1>
-			<nav>
-				<ul>
-					<li><a href="index.html">portfolio</a></li>
-					<li><a href="about.html">about</a></li>
-				</ul>
-			</nav>
+	
+<nav class="navbar">
 
-			<div class="social-horizontal">
-				<nav>
-					<ul>
-						<li><a href="https://www.instagram.com/susantdesign/"><img src="images/instagram.png" alt="instagram"></a></li>
-						<li><a href="https://www.facebook.com/susan.thai.7"><img src="images/facebook-black.png" alt="facebook"></a></li>
-						<li><a href="https://www.linkedin.com/in/susan-thai-074936149"><img src="images/linkedin.png" alt="linkedin"></a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>	
-	<div class="project-body">
-		<div class="hero-image">
-			<img src="images/florence-mockup.jpg" alt="Florence Nightingale" width="100%">
-		</div>
+		<span class="navbar-toggle" id="js-navbar-toggle">
+			<em class="fas fa-bars"></em>
+		</span>
 
-		<div class="description">
-			<p>This historical website showcases highlights of Florence Nightingale in an interesting way to target high-school students. The use of dark colors, grey and blue, was used to emphasize the name &ldquo;lady with the lamp.&rdquo; Blue was used because of its relation to healthcare. The information is broken up in order to make it easier to read and to keep the attention of the audience.</p>
-		</div>
+		<a href="index.html" class="logo"><img src="images/personal-logo-32.png" width="100px" alt="Susan Thai"></a>
 
-		<div class="mockups">
-			<div class="fn-column">
-				<img src="images/fn-1-resize.png" alt="timeline">
-				<img src="images/fn-2-resize.png" alt="chapters">
-			</div>
-		
-			<div class="fn-column">
-				<img src="images/fn-3-resize.png" alt="chapter-1">
-				<img src="images/fn-4-resize.png" alt="chapter-2">
-			</div>
+		<ul class="main-nav" id="js-menu">
+			<li><a href="index.html">Portfolio</a></li>
+			<li><a href="about.html">About Me</a></li>
+			
+			<ul class="social">
+			<li><a href="https://www.instagram.com/susantdesign/" target="_blank"><img src="images/instagram.png" alt="instagram">
+			</a></li>
+			<li><a href="https://www.facebook.com/susan.thai.7" target="_blank"><img src="images/facebook-black.png" alt="facebook"></a></li>
+			</ul>
+		</ul>
+</nav>
+	
+	<script type="text/javascript" src="responsive.js"></script>
+	
+	<section class="hero-image" id="florence">
+		<div class="hero-text">
+			<h1>UI/UX</h1>
+			<h2>Florence Nightingale</h2>
 		</div>
+	</section>
+	
+	<div class="description">
+		<p>This historical website showcases highlights of Florence Nightingale in an interesting way to target high-school students. The use of dark colors, grey and blue, was used to emphasize the name &ldquo;lady with the lamp.&rdquo; Blue was used because of its relation to healthcare. The information is broken up in order to make it easier to read and to keep the attention of the audience.</p>
+	</div>
+	
+	<sections class="cards">
+		<figure>
+		<img class="figure-img" src="images/florence - wireframe 1.png" alt="wireframe-1">
+		</figure>
 		
-		<div class="website-link">
-			<h2>Website Link</h2>
-			<a href="https://xd.adobe.com/view/5abd839f-0cb0-4d38-5a05-fc01fa7edd7d-2c8c/?fullscreen" target="_blank">Florence Nightingale in Adobe XD</a>
-		</div>
+		<figure>
+		<img class="figure-img" src="images/florence - wireframe 2.png" alt="wireframe-2">
+		</figure>
 		
+		<figure>
+		<img class="figure-img" src="images/florence - wireframe 3.png" alt="wireframe-3">
+		</figure>
+		
+		<figure>
+		<img class="figure-img" src="images/florence-wireframe 4.png" alt="wireframe-4">
+		</figure>
+	</sections>
+	
+		<p class="about-section">After figuring out the personas for the project, sketching thumbnails, and figuring out the workflow of the pages, next came the wireframes. These are the initial wireframes I had for the project. It was a continuous vertical scroll with a shortcut to click through each chapter. </p>
+
+	<section class="cards">
+		<figure>
+		<img class="figure-img" src="images/florence - style tiles_Page_1.jpg" alt="styletile-1">
+		</figure>
+		
+		<figure>
+		<img class="figure-img" src="images/florence - style tiles_Page_2.jpg" alt="styletile-2">
+		</figure>
+		
+	</section>
+	
+	<p class="about-section">These are some of the style tiles I initially came up with for the project. On the left would be a more professional look, and the right is more colorful with more interactions in order to grab the attention of the readers. The right also included more interaction details to keep the audience engaged while reading through the content.</p>
+
+	<section class="cards">
+	<figure>
+	<img class="figure-img" src="images/fn-1-resize.png" alt="screen-1">
+	</figure>
+
+	<figure>
+	<img class="figure-img" src="images/fn-2-resize.png" alt="screen-2">
+	</figure>
+	
+	<figure>
+	<img class="figure-img" src="images/fn-3-resize.png" alt="screen-3">
+	</figure>
+		
+	<figure>
+	<img class="figure-img" src="images/fn-4-resize.png" alt="screen-4">
+	</figure>
+
+	</section>
+	
+	<p class="about-section">These are some screenshots from the final website. In this final version, I wanted to minimize the distractions that were seen in previous versions. I chose to go back to three colors to be able to emphasize contrast in important areas, and grab the attention of the readers. I chose a more sophisticated look so that the high schoolers wouldn't feel that they were on a children's site, and that the informtion would be more detailed.</p>
+	
+	<div class="website-link">
+		<h2>Website Link</h2>
+		<a href="https://xd.adobe.com/view/5abd839f-0cb0-4d38-5a05-fc01fa7edd7d-2c8c/?fullscreen" target="_blank">Florence Nightingale in Adobe XD</a>
+	</div>
+	
 	<div class="buttons">
 		<a href="billofrights.html"><button class="button-last" style="vertical-align:middle"><span>Last Project: </span></button></a>
 		<a href="making-biscuits.html"><button class="button-next" style="vertical-align:middle"><span>Next Project: </span></button></a>
 	</div>
 		
-	</div>
+	<div>
 		<footer><p>sst.susant@gmail.com</p></footer>
-	</div>	
+	</div>
 </body>
 </html>

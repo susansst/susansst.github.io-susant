@@ -5,51 +5,69 @@
 <title>Bill of Rights</title>
 <link href="css/css.css" rel="stylesheet" type="text/css" media="screen">
 <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Overpass" rel="stylesheet">
+<script src="https://kit.fontawesome.com/420c43f12a.js"></script>
 </head>
 
 <body>
-	<div class="container">
-		
-		<div class="horizontal-nav">
-			<h1><a href="index.html"><img src="images/personal-logo-32.png" width="100%" alt="Susan Thai"></a></h1>
-			<nav>
-				<ul>
-					<li><a href="index.html">portfolio</a></li>
-					<li><a href="about.html">about</a></li>
-				</ul>
-			</nav>
+	<nav class="navbar">
 
-			<div class="social-horizontal">
-				<nav>
-					<ul>
-						<li><a href="https://www.instagram.com/susantdesign/"><img src="images/instagram.png" alt="instagram"></a></li>
-						<li><a href="https://www.facebook.com/susan.thai.7"><img src="images/facebook-black.png" alt="facebook"></a></li>
-						<li><a href="https://www.linkedin.com/in/susan-thai-074936149"><img src="images/linkedin.png" alt="linkedin"></a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>	
-		
-<div class="project-body">
-	
-		<div class="hero-image-resize">
-			<img src="images/billofrights-resize.jpg" alt="contemporary">
-		</div>
+		<span class="navbar-toggle" id="js-navbar-toggle">
+			<em class="fas fa-bars"></em>
+		</span>
 
-		<div class="description">
-			<p>TThese posters are meant to be a remake of the Bill of Rights in a larger format. The top poster is contemporary and represents a facade, using the large mass of black to hide the words, representing the government and their actions hiding the complete truth from the public. The bottom is a traditional style of the poster using typefaces and layout that represents a more toned down version fitting that of the actual Bill of Rights.</p>
-		</div>
+		<a href="index.html" class="logo"><img src="images/personal-logo-32.png" width="100px" alt="Susan Thai"></a>
+
+		<ul class="main-nav" id="js-menu">
+			<li><a href="index.html">Portfolio</a></li>
+			<li><a href="about.html">About Me</a></li>
+			
+			<ul class="social">
+			<li><a href="https://www.instagram.com/susantdesign/" target="_blank"><img src="images/instagram.png" alt="instagram">
+			</a></li>
+			<li><a href="https://www.facebook.com/susan.thai.7" target="_blank"><img src="images/facebook-black.png" alt="facebook"></a></li>
+			</ul>
+		</ul>
+</nav>
 	
-		<div class="hero-image-resize">
-			<img src="images/traditional-poster-resize.jpg" alt="traditional">
+<script type="text/javascript" src="responsive.js"></script>
+	
+	<section class="hero-image" id="billofrights">
+		<div class="hero-text">
+			<h1>Publication</h1>
+			<h2>Bill of Rights</h2>
 		</div>
+	</section>
+	
+	<div class="description">
+		<p>These posters are meant to be a remake of the Bill of Rights in a larger format. The top poster is contemporary and represents a facade, using the large mass of black to hide the words, representing the government and their actions hiding the complete truth from the public. The bottom is a traditional style of the poster using typefaces and layout that represents a more toned down version fitting that of the actual Bill of Rights.</p>
+	</div>
+	
+	<sections class="cards">
+		<figure>
+		<img class="figure-img" src="images/BoR experimental - rough 1.jpg" alt="experimental rough">
+		</figure>
+		
+		<figure>
+		<img class="figure-img" src="images/BoR traditional - rough 1.jpg" alt="traditional rough">
+		</figure>
+	</sections>
+	
+		<p class="about-section">These are some two of the roughs I created that lead up to the final products of the posters.</p>
+	
+	<sections class="cards">
+		<figure>
+		<img class="figure-img" src="images/billofrights.png" alt="experimental final">
+		</figure>
+		
+		<figure>
+		<img class="figure-img" src="images/traditional-poster-resize.jpg" alt="traditional final">
+		</figure>
+	</sections>
 	
 	<div class="buttons">
-		<a href="dunwich.html"><button class="button-last" style="vertical-align:middle"><span>Last Project: </span></button></a>
+		<a href="dunwichhorror.html"><button class="button-last" style="vertical-align:middle"><span>Last Project: </span></button></a>
 		<a href="florence.html"><button class="button-next" style="vertical-align:middle"><span>Next Project: </span></button></a>
 	</div>
 		<footer><p>sst.susant@gmail.com</p></footer>
-</div>
-	</div>	
 </body>
 </html>
