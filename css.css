@@ -1,0 +1,408 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+}
+
+.navbar {
+	width: 100%;
+	font-size: 13px;
+	background-color: #D6EEED;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 0;
+	z-index: +1;
+}
+
+.main-nav {
+	list-style-type: none;
+	display: none;
+}
+
+.main-nav li {
+	text-align: center;
+	margin: 15px auto;
+}
+
+.social {
+	text-align: center;
+}
+
+.social li img {
+	width: 22px;
+}
+
+.social li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.logo {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.nav-links, .logo {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-toggle {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	cursor: pointer;
+	color: #0E2E33;
+	font-size: 18px;
+}
+
+.active {
+	display: block;
+}
+
+/*portfolio page*/
+.portfolio {
+	padding: 2rem;
+	margin-top: 4.25rem;
+}
+
+.portfolio > ul {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+	grid-gap: 1rem;
+}
+
+.portfolio > ul > li {
+	list-style-type: none;
+}
+
+.portfolio > ul > li > figure {
+	min-height: 220px;
+	position: relative;
+}
+
+.portfolio > ul > li > figure > figcaption {
+	position: relative;
+	width: 100%;
+}
+.portfolio > ul > li > figure > a {
+	display: inline-block;
+	max-height: 550px;
+}
+	
+.portfolio > ul > li > figure > a > img {
+	max-height: 700px;
+	width: 100%;
+}
+
+.portfolio > ul > li > figure > figcaption > h2 {
+	padding: .75rem;
+	font-size: 1.25rem;
+}
+
+.portfolio > ul > li > p {
+	font-size: .85rem;
+ 	line-height: 0;
+ 	padding: 0rem .75rem 1rem .75rem;
+	color: #0E2E33;
+	font-family: 'Overpass', sans-serif;
+	font-style: italic;
+}
+
+/* other pages */
+
+#florence {
+	background-image: url("../images/florence-mockup.jpg");
+	width: 100%;
+}
+
+#makingbiscuits {
+	background-image: url("../images/makingbiscuits-hero-resize.jpg");
+	width: 100%;
+}
+
+#treasure-chore {
+	background-image: url("../images/treasurechores-hero.jpg");
+	width: 100%;
+}
+
+#bark-bistro {
+	background-image: url("../images/barkbistro-hero.jpg");
+	width: 100%;
+}
+
+#greenlight {
+	background-image: url("../images/greenlight-hero.jpg");
+	width: 100%;
+}
+
+#ganbei {
+	background-image: url("../images/GanBei.jpg");
+	width: 100%;
+	margin-top: 80px;
+}
+
+#dunwich {
+	background-image: url("../images/dunwichhorror-cover.jpg");
+	width: 100%;
+}
+
+#billofrights {
+	background-image: url("../images/billofrights.png");
+	width: 100%;
+	margin-top: 60px;
+}
+
+.hero-image {
+	width: 100%;
+	height: 300px;
+	margin-top: 3.5rem;
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-text {
+	position: relative;
+	top: 200px;
+	padding-left: 15px;
+}
+
+#ganbei .hero-text {
+	top: 30px;
+}
+
+h1, h2, a {
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	color: #0E2E33;
+}
+
+p {
+	font-family: 'Overpass', sans-serif;
+}
+
+.hero-text h1 {
+	color: #ffffff;
+	font-size: 1rem;
+}
+
+.hero-image h2 {
+	color: #ffffff;
+	font-size: 1.15rem;
+}
+
+#ganbei .hero-text h1 {
+	color: #0E2E33;
+}
+
+#ganbei .hero-text h2 {
+	color: #0E2E33;
+}
+
+a:link {
+	color: #0E2E33;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F19874;
+}
+
+.social a:link {
+	opacity: 0.5;
+}
+
+.social a:hover {
+	opacity: 1;
+}
+
+.cards {
+	display: grid;
+ 	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+ 	grid-gap: 30px;
+}
+
+figure {
+  	position: relative;
+}
+
+.figure-img {
+	height: auto;
+	width: 100%;
+	object-fit: contain;
+}
+
+.description {
+	width: 80%;
+	margin: 40px auto 80px;
+	text-align: justify;
+}
+
+.about-section {
+	width: 75%;
+	text-align: justify;
+	margin: 40px auto 80px;
+}
+
+.interactive-book {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.website-link {
+	text-align: center;
+	line-height: 2;
+	margin-bottom: 100px;
+}
+
+.buttons {
+	display: flex;
+	max-width: 100%;
+	justify-content: space-between;
+	margin: 0 20px 20px 20px;
+}
+
+button {
+	background-color: #0E2E33;
+  border: none;
+  color: #F19874;
+  padding: 10px 10px;
+	font-family: 'Overpass', sans-serif;
+	text-align: center;
+  font-size: 12px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover {
+	opacity: 1;
+}
+
+footer {
+	background-color: #0E2E33;
+	color: #F19874;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 15px;
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+	/* main */
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 0;
+		height: 70px;
+		align-items: center;
+	}
+
+	.main-nav {
+		display: flex;
+		margin-right: 30px;
+		flex-direction: row;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	.main-nav li {
+		margin: 0 20px;
+	}
+
+	.nav-links {
+		margin-left: 40px;
+	}
+
+	.logo {
+		margin-top: 0;
+	}
+
+	.navbar-toggle {
+		display: none;
+	}
+
+	.logo:hover, .nav-links:hover {
+		color: #0E2E33;
+	}
+	
+	.portfolio > ul > li > figure {
+		position: relative;
+		margin: 0;
+	}
+	
+	.portfolio > ul > li > p {
+		line-height: 0;
+		font-size: .75rem;
+	}
+	
+	.portfolio > ul > li > figure > figcaption > h2 {
+		padding: .75rem .75rem .50rem .75rem;
+		font-size: 1rem;
+	}
+	
+	/* other pages */
+
+	.hero-image {
+		width: 100%;
+    	height: 575px;
+		margin: 0 0 30px 0;
+		padding: 0;
+    
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+	
+	.hero-text {
+		position: relative;
+		right: 465px;
+		top: 225px;
+	}
+	
+	.hero-text h1 {
+		font-size: 1.15rem;
+}
+
+	.hero-image h2 {
+		font-size: 1.25rem;
+}
+	.cards {
+		max-width: 960px;
+		margin: 0 auto 30px;
+	}
+
+	.figure-img {
+		height: auto;
+		width: 100%;
+		object-fit: contain;
+	}
+	
+}
+	
+@media screen and (min-width: 600px) {
+}
